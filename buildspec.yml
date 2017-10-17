@@ -3,6 +3,9 @@ version: 0.2
 phases:
   build:
     commands:
+      - which node
+      - node version
+      - which npm
       - npm install
       - pip install pipenv
       - pipenv install
