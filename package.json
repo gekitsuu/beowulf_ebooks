@@ -1,0 +1,23 @@
+{
+  "name": "beowulf_ebooks",
+  "version": "1.0.0",
+  "description": "meh",
+  "main": "index.js",
+  "dependencies": {
+    "serverless": "^1.23.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gekitsuu/beowulf_ebooks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gekitsuu/beowulf_ebooks/issues"
+  },
+  "homepage": "https://github.com/gekitsuu/beowulf_ebooks#readme"
+}
