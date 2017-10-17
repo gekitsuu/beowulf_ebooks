@@ -25,6 +25,8 @@ provider:
 functions:
   getTweet:
     handler: handler.get_tweet
+    events:
+      - schedule: rate(60 minutes)
 
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
