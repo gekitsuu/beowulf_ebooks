@@ -4,7 +4,7 @@ phases:
   build:
     commands:
       - apt-get update && apt-get upgrade -y
-      - apt-get install -y node
+      - apt-get install -y nodejs npm
       - which node
       - node --version
       - which npm
