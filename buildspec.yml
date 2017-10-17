@@ -9,3 +9,4 @@ phases:
       - npm install
       - pip install pipenv
       - pipenv install
+      - $(npm bin) sls deploy
