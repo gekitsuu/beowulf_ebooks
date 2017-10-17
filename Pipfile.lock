@@ -25,8 +25,8 @@
             "version": "==1.4.7"
         },
         "botocore": {
-            "hash": "sha256:e26e82f491cbb6278510d1e6e2bf76f269a9444196e88e1b22a45d3cadd1bc96",
-            "version": "==1.7.28"
+            "hash": "sha256:4667d4c0f4e59ae15069e507c64206b954c6de636ece368a19394a8d03345112",
+            "version": "==1.7.29"
         },
         "certifi": {
             "hash": "sha256:54a07c09c586b0e4c619f02a5e94e36619da8e2b053e20f594348c0611803704",
