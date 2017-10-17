@@ -5,9 +5,6 @@ phases:
     commands:
       - apt-get update && apt-get upgrade -y
       - apt-get install -y nodejs npm
-      - which nodejs
-      - nodejs --version
-      - which npm
       - npm install
       - pip install pipenv
       - pipenv install
