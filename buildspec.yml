@@ -6,7 +6,7 @@ phases:
       - apt-get update && apt-get upgrade -y
       - apt-get install -y node
       - which node
-      - node version
+      - node --version
       - which npm
       - npm install
       - pip install pipenv
