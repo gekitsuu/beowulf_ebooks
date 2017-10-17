@@ -10,3 +10,5 @@ phases:
       - pip install pipenv
       - pipenv install
       - $(npm bin)/sls deploy
+      - pipenv lock --requirements > requirements.txt
+      - pip install -r requirements.txt -t vendor
