@@ -9,7 +9,7 @@ phases:
       - npm install
       - pip install pipenv
       - pipenv install
-      - pipenv shell
+      - SHELL=/bin/bash pipenv shell
       - which credstash
       - pipenv lock --requirements > requirements.txt
       - pip install -r requirements.txt -t vendor
