@@ -34,7 +34,7 @@
             "version": "==1.13.4"
         },
         "cryptography": {
-            "version": "==2.1.1"
+            "version": "==2.0"
         },
         "docutils": {
             "version": "==0.14"
