@@ -10,4 +10,9 @@ phases:
       - pip install pipenv
       - pipenv lock --requirements > requirements.txt
       - pip install -r requirements.txt -t vendor
+      - export TWITTER_CONSUMER_KEY=$(credstash get twitter.consumer_key)
+      - export TWITTER_CONSUMER_SECRET=$(credstash get twitter.consumer_secret)
+      - export TWITTER_ACCESS_KEY=$(credstash get twitter.access_token_key)
+      - export TWITTER_ACCESS_SECRET=$(credstash get twitter.access_token_secret)
       - $(npm bin)/sls deploy
+

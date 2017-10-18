@@ -19,8 +19,11 @@ provider:
       Resource: "arn:aws:dynamodb:us-west-2:248284992944:table/credential-store"
 
 # you can define service wide environment variables here
-#  environment:
-#    variable1: value1
+  environment:
+    TWITTER_CONSUMER_KEY: ${TWITTER_CONSUMER_KEY}
+    TWITTER_CONSUMER_SECRET: ${TWITTER_CONSUMER_SECRET}
+    TWITTER_ACCESS_KEY: ${TWITTER_ACCESS_KEY}
+    TWITTER_ACCESS_SECRET: ${TWITTER_ACCESS_SECRET}
 
 functions:
   getTweet:

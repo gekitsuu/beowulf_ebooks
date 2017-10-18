@@ -1,5 +1,6 @@
 import json
 
+import os
 import sys
 sys.path.append('vendor')
 
@@ -18,10 +19,10 @@ def read_corpus():
 
 def send_tweet(message):
     """Send a tweet to the twitter account."""
-    consumer_key = getSecret('twitter.consumer_key')
-    consumer_secret = getSecret('twitter.consumer_secret')
-    access_token_key = getSecret('twitter.access_token_key')
-    access_token_secret = getSecret('twitter.access_token_secret')
+    consumer_key = os.environ['TWITTER_CONSUMER_KEY']
+    consumer_secret = os.environ['TWITTER_CONSUMER_SECRET']
+    access_token_key = os.environ['TWITTER_ACCESS_KEY']
+    access_token_secret = os.environ['TWITTER_ACCESS_SECRET']
 
     api = twitter.Api(consumer_key=consumer_key,
                       consumer_secret=consumer_secret,
