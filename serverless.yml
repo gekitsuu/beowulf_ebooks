@@ -26,8 +26,8 @@ provider:
     TWITTER_ACCESS_SECRET: ${env:TWITTER_ACCESS_SECRET}
 
 functions:
-  getTweet:
-    handler: handler.get_tweet
+  sendTweet:
+    handler: handler.send_tweet
     events:
       - schedule: rate(60 minutes)
 
