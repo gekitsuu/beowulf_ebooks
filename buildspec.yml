@@ -12,12 +12,8 @@ phases:
       - pip install -r requirements.txt
       - pip install -r requirements.txt -t vendor
       - export TWITTER_CONSUMER_KEY=$(credstash get twitter.consumer_key)
-      - echo "$TWITTER_CONSUMER_KEY"
       - export TWITTER_CONSUMER_SECRET=$(credstash get twitter.consumer_secret)
-      - echo "$TWITTER_CONSUMER_SECRET"
       - export TWITTER_ACCESS_KEY=$(credstash get twitter.access_token_key)
-      - echo "$TWITTER_ACCESS_KEY"
       - export TWITTER_ACCESS_SECRET=$(credstash get twitter.access_token_secret)
-      - echo "$TWITTER_ACCESS_SECRET"
       - $(npm bin)/sls deploy
 
