@@ -7,7 +7,6 @@ sys.path.append('vendor')
 import markovify
 import twitter
 
-from credstash import getSecret
 
 def read_corpus():
     """Read corpus.txt to prime responses."""
