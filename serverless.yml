@@ -27,7 +27,7 @@ provider:
 
 functions:
   sendTweet:
-    handler: handler.send_tweet
+    handler: handler.make_tweet
     events:
       - schedule: rate(60 minutes)
 

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "733639ee02060672ca1099d11564b305c213ca3616de211841719d346b3f7fb8"
+            "sha256": "4c5c99a18a52bf8e49ccfed0fb309b5fcec692e1a566dc7ffe275ebbf8aacf7d"
         },
         "requires": {},
         "sources": [
@@ -12,9 +12,6 @@
         ]
     },
     "default": {
-        "Unidecode": {
-            "version": "==0.04.21"
-        },
         "asn1crypto": {
             "version": "==0.23.0"
         },
@@ -37,7 +34,7 @@
             "version": "==1.13.4"
         },
         "cryptography": {
-            "version": "==2.0.3"
+            "version": "==2.1.1"
         },
         "docutils": {
             "version": "==0.14"
@@ -86,6 +83,9 @@
         },
         "six": {
             "version": "==1.11.0"
+        },
+        "unidecode": {
+            "version": "==0.04.21"
         },
         "urllib3": {
             "version": "==1.22"

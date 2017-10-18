@@ -6,3 +6,4 @@ verify_ssl = true
 markovify = "*"
 python-twitter = "*"
 credstash = "*"
+cryptography = "*"

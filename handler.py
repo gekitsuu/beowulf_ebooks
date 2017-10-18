@@ -34,5 +34,5 @@ def send_tweet(message):
 
 def make_tweet(event, context):
     text_model = read_corpus()
-    print(text_model.make_short_sentence(140))
-
+    tweet = text_model.make_short_sentence(140)
+    send_tweet(tweet)
