@@ -4,7 +4,7 @@
   "description": "meh",
   "main": "index.js",
   "dependencies": {
-    "serverless": "^1.23.0"
+    "serverless": "^1.26.1"
   },
   "devDependencies": {},
   "scripts": {
