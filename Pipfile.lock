@@ -15,6 +15,7 @@
     "default": {
         "boto3": {
             "hashes": [
+
                 "sha256:3a1ffeecfe6e61d414617294b822b008e604ccfd83434c483f429a2922db314d",
                 "sha256:ebea98f3054b467caf6c8aead9f0ef78395a78bce78b04db12fde452c02b3734"
             ],
