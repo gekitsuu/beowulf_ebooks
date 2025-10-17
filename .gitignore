@@ -1,5 +1,6 @@
 # Distribution / packaging
 .Python
+.claude/
 env/
 build/
 develop-eggs/
